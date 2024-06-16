@@ -1,0 +1,40 @@
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark-mode header {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode main {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark-mode h2 {
+    color: #fff;
+}
+
+.dark-mode ul {
+    border-color: #444;
+}
+
+.dark-mode li {
+    border-color: #717070;
+    color: #faf6f6;
+}
+
+.dark-mode #challenge-detail {
+    background-color: #414040;
+    border-color: #444;
+    color: #f5f4f4;
+}
+
+.dark-mode input[type="text"],
+.dark-mode button {
+    background-color: #c7c6c6;
+    border-color: #333;
+    color: #f7f1f1;
+}

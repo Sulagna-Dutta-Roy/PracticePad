@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1edb2;
+    padding: 20px;
+}
+header {
+    background-color: #e8e6e2;
+    color: #232222;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#challenge-detail {
+    margin-top: 20px;
+}
+
+#challenge-detail > div {
+    margin-bottom: 10px;
+}
+
+/* Search container styles */
+#search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px; /* Add space between items */
+}
+
+#search-input,
+#username {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1; /* Allow inputs to grow and fill space */
+}
+
+#search-button,
+#fetch-user-data {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover,
+#fetch-user-data:hover {
+    background-color: #555;
+}
+
+/* User details sections */
+div#user-details,
+div#user-badges,
+div#user-contest-history {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    line-height: 1.2; /* Reduce line height for more compact text */
+    margin-bottom: 10px; /* Add some space between sections */
+}
+div#user-solved-questions {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    overflow-wrap: break-word;
+}
+/* Hide user detail sections initially */
+.hidden {
+    display: none;
+}
+#dark-mode-toggle {
+    background-color: rgb(4, 101, 112);
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+#submit-feedback{
+    background-color: rgb(4, 101, 112);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+textarea .feedback-text{
+    font-size: 15px;
+    margin-right: 10px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Coding Challenges</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkmode.css">
+
+</head>
+<body>
+    <header>
+        <h1>Mock Coding Practice</h1>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+
+    </header>
+
+    <main>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search problems">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="leetcode-username">
+            <input type="text" id="username" placeholder="Enter LeetCode Username" autocomplete="off" style="width: 50%; padding: 5px; font-size: 16px;">
+            <button id="fetch-user-data">Get User Details</button>
+        </div>
+
+        <div id="user-details" class="hidden"></div>
+        <div id="user-badges" class="hidden"></div>
+        <div id="user-solved-questions" class="hidden"></div>
+        <div id="user-contest-history" class="hidden"></div>
+
+        <section id="challenge-list">
+            <h2>Available Coding Challenges</h2>
+            <ul id="challenges"></ul>
+        </section>
+
+        <section id="challenge-detail" class="hidden">
+            <h2>Challenge Details</h2>
+            <div id="problem-title"></div>
+            <div id="problem-description"></div>
+            <div id="problem-constraints"></div>
+        </section>
+
+        <div id="feedback-section">
+            <h3>Feedback</h3>
+            <label for="difficulty-rating">Rate Difficulty:</label>
+            <select id="difficulty-rating">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <br/>
+            <label for="feedback-text">Feedback:</label>
+            <textarea id="feedback-text" row="0" cols="20"></textarea>
+            
+            <button id="submit-feedback">Submit Feedback</button>
+        </div>
+    </main>
+
+    <script src="search.js"></script>
+    <script src="config.js"></script>
+    <script src="user.js"></script>
+    <script src="app.js"></script>
+    <script src="feedback.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>
