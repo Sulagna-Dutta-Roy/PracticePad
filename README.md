@@ -1,5 +1,6 @@
 # PracticePad
 Welcome to PracticePad, your all-in-one tool for practicing coding challenges, exploring problem details, and tracking your progress on LeetCode.
+![IMG_20240617_031748](https://github.com/Sulagna-Dutta-Roy/PracticePad/assets/72568715/a2d56392-2ee0-4f87-ba64-810ce9679deb)
 
 # Overview:<br/>
 PracticePad is designed to enhance your coding practice experience by providing:
