@@ -109,9 +109,6 @@ div#user-solved-questions {
     font-size: 20px;
     border: none;
 }
-
-
-
 #submit-feedback{
     background-color: rgb(4, 101, 112);
     color: #fff;
@@ -123,4 +120,51 @@ div#user-solved-questions {
 textarea .feedback-text{
     font-size: 15px;
     margin-right: 10px;
+}
+/* user calendar ********/ 
+#calendar {
+    margin-top: 20px;
+}
+
+#submission-calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-date {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    width: calc(33.333% - 10px); /* 3 columns */
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .calendar-date {
+        width: calc(50% - 10px); /* 2 columns for smaller screens */
+    }
+}
+/****** Daily Problem ******/ 
+#daily-problem {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#daily-problem h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#daily-problem div {
+    margin-bottom: 10px;
+}
+
+/* Ensure hidden elements are truly hidden */
+.hidden {
+    display: none;
 }
