@@ -1,4 +1,4 @@
-### PracticePad
+### Welcome To PracticePad
 
 ### Description
 PracticePad is a web application designed to help users improve their coding skills through interactive challenges and tools integrated with the LeetCode API. It provides features such as fetching daily coding challenges, searching for specific problems, viewing user statistics and submission history from LeetCode, implementing a feedback system, and a dark mode toggle for improved user experience.
