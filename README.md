@@ -1,44 +1,40 @@
-# PracticePad
-Welcome to PracticePad, your all-in-one tool for practicing coding challenges, exploring problem details, and tracking your progress on LeetCode.
-![IMG_20240617_031748](https://github.com/Sulagna-Dutta-Roy/PracticePad/assets/72568715/a2d56392-2ee0-4f87-ba64-810ce9679deb)
+### PracticePad
 
-# Overview:<br/>
-PracticePad is designed to enhance your coding practice experience by providing:
+### Description
+PracticePad is a web application designed to help users improve their coding skills through interactive challenges and tools integrated with the LeetCode API. It provides features such as fetching daily coding challenges, searching for specific problems, viewing user statistics and submission history from LeetCode, implementing a feedback system, and a dark mode toggle for improved user experience.
 
-Problem Listing: Browse through a curated list of LeetCode problems.
-Detailed Problem Views: View detailed descriptions and constraints of selected problems.
-User Data Fetching: Fetch and display user details, including solved questions, badges, contest history, and submissions.
-Feedback System: Provide feedback on problems to suggest improvements or rate difficulty.
-Features
-Search Functionality: Instantly search for specific problems using keywords.
-Dark Mode: Toggle between light and dark themes for comfortable coding sessions.
-Feedback Mechanism: Rate and provide comments on problem difficulty and quality.
-Responsive Design: Accessible and user-friendly across devices.
-<br/>
-# Installation<br/>
-Clone the repository:<br/>
-```` git clone https://github.com/your-username/practicepad.git ````` 
-<br/>
-Open index.html in your browser to start using PracticePad.
+### Problem Addressed
+Many aspiring programmers and coding enthusiasts face challenges in consistently practicing coding problems and tracking their progress. Existing platforms may lack certain integrated features or user-friendly interfaces, making it cumbersome for users to efficiently practice coding daily.
 
-<br/>
+### Solution
+PracticePad aims to address these challenges by providing a unified platform that integrates various features from LeetCode's API, enhancing user experience through interactive tools like a daily problem fetcher, user statistics display, and a customizable dark mode. By offering these functionalities, PracticePad encourages users to engage more effectively with coding challenges, track their progress, and improve their coding skills.
 
-# Usage
-<br/>
-Browse Problems: Click on a problem title in the list to view its details.<br/>
-Fetch User Data: Enter a LeetCode username and click "Fetch User Data" to display user-specific information.<br/>
-Search Problems: Use the search bar to filter problems based on keywords.<br/>
-Toggle Dark Mode: Click on the dark mode toggle to switch between light and dark themes.<br/>
-<br/>
+### Impact
+The project aims to make coding practice more accessible and enjoyable for users by providing a seamless experience through an intuitive interface and integrated tools. By promoting daily practice and skill improvement, PracticePad helps users advance their coding abilities and prepare for technical interviews or coding competitions.
 
-# Contributing 
-<br/>
-Contributions are welcome! If you have suggestions for improvements or new features, please submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-<br/>
+### Installation
 
-# Credits
+```` git clone https://github.com/yourusername/practicepad.git ```` 
 <br/>
-This project was developed as part of Ingenium STEM Summer Hacks 1.0, inspired by the goal of promoting coding practice and learning.
-<br/>
-# License
-MIT License
+```` cd practicepad ````
+
+### Usage:
+Enter your LeetCode username in the input field and click "Get User Details" to fetch and display your statistics.
+Use the search bar to find specific coding problems based on keywords or tags.
+Toggle dark mode using the button provided.
+View the daily coding challenge by clicking on the "Fetch Daily Problem" button.
+
+### Technologies Used 
+HTML, CSS, JavaScript <br/>
+LeetCode API<br/>
+Additional Tools: Balsamiq(Wireframes),Visual Studio Code 
+
+### Repository Structure
+/public: Static assets and HTML files. <br/>
+README.md: Detailed project information, setup instructions, and usage guidelines. 
+
+### Credits
+Developer: Sulagna Dutta Roy <br/>
+GitHub: Sulagna-Dutta-Roy
+### License
+This project is licensed under the MIT License - see the LICENSE file for details. 
