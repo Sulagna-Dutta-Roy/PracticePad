@@ -24,11 +24,22 @@
             <input type="text" id="username" placeholder="Enter LeetCode Username" autocomplete="off" style="width: 50%; padding: 5px; font-size: 16px;">
             <button id="fetch-user-data">Get User Details</button>
         </div>
-
+         <section id="daily-problem" class="hidden">
+            <h2>Daily Problem</h2>
+            <div id="daily-problem-title"></div>
+            <div id="daily-problem-description"></div>
+            <div id="daily-problem-difficulty"></div>
+            <div id="daily-problem-link"></div>
+        </section>
+        
         <div id="user-details" class="hidden"></div>
         <div id="user-badges" class="hidden"></div>
         <div id="user-solved-questions" class="hidden"></div>
         <div id="user-contest-history" class="hidden"></div>
+        <section id="calendar" class="hidden">
+            <h2>Submission Calendar</h2>
+            <div id="submission-calendar"></div>
+        </section>
 
         <section id="challenge-list">
             <h2>Available Coding Challenges</h2>
@@ -64,5 +75,7 @@
     <script src="app.js"></script>
     <script src="feedback.js"></script>
     <script src="darkmode.js"></script>
+    <script src="calendar.js"></script>
+    <script src="dailyproblem.js"></script>
 </body>
 </html>
