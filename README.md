@@ -28,7 +28,8 @@ View the daily coding challenge by clicking on the "Fetch Daily Problem" button.
 ### Technologies Used 
 HTML, CSS, JavaScript <br/>
 LeetCode API<br/>
-Additional Tools: Balsamiq(Wireframes),Visual Studio Code 
+Sponsor Tool: Balsamiq (https://balsamiq.com/) <br/>
+Additional Tools: Visual Studio Code,Github
 
 ### Repository Structure
 /public: Static assets and HTML files. <br/>
