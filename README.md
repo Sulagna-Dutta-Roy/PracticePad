@@ -1,4 +1,5 @@
 ### Welcome To PracticePad
+<img width="959" alt="practicehub" src="https://github.com/Sulagna-Dutta-Roy/PracticePad/assets/72568715/66067d24-221e-44e6-a73f-59c3a7fee360">
 
 ### Description
 PracticePad is a web application designed to help users improve their coding skills through interactive challenges and tools integrated with the LeetCode API. It provides features such as fetching daily coding challenges, searching for specific problems, viewing user statistics and submission history from LeetCode, implementing a feedback system, and a dark mode toggle for improved user experience.
@@ -36,5 +37,6 @@ README.md: Detailed project information, setup instructions, and usage guideline
 ### Credits
 Developer: Sulagna Dutta Roy <br/>
 GitHub: Sulagna-Dutta-Roy
+
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details. 
