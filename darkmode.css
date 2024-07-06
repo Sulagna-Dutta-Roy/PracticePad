@@ -1,40 +1,53 @@
 body.dark-mode {
-    background-color: #1a1a1a;
-    color: #e0e0e0;
-}
-
-.dark-mode header {
-    background-color: #333;
-    color: #fff;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
 }
 
 .dark-mode main {
-    background-color: #2d2d2d;
-    color: #e0e0e0;
+  background-color: #2d2d2d;
 }
 
 .dark-mode h2 {
-    color: #fff;
+  color: #fff;
+}
+#daily-problem {
+  color: #000;
 }
 
 .dark-mode ul {
-    border-color: #444;
+  border-color: #444;
 }
 
 .dark-mode li {
-    border-color: #717070;
-    color: #faf6f6;
+  border-color: #717070;
 }
 
 .dark-mode #challenge-detail {
-    background-color: #414040;
-    border-color: #444;
-    color: #f5f4f4;
+  background-color: #414040;
+  border-color: #444;
+  color: #f5f4f4;
 }
 
-.dark-mode input[type="text"],
+.dark-mode input[type="text"] {
+  background-color: #333;
+  border-color: #000000;
+  outline: #000;
+  color: #eaeaea;
+}
+
+.dark-mode #search-input,
+.dark-mode #username {
+  background-color: #333;
+  border-color: #222;
+  outline: #000;
+  color: #eaeaea;
+}
 .dark-mode button {
-    background-color: #c7c6c6;
-    border-color: #333;
-    color: #f7f1f1;
+  background-color: #444;
+  color: #eaeaea;
+}
+
+.dark-mode button:hover {
+  background-color: #333;
+  color: #eaeaea;
 }
