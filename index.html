@@ -1,72 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PracticePad Coding</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="darkmode.css">
-
-</head>
-<body>
-    <header>
-        <h1>PracticePad</h1>
-        <button id="dark-mode-toggle">Toggle Dark Mode</button>
-
-    </header>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="darkmode.css" />
+    <!-- Added Remix Icons CDN to use Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <h1>PracticePad</h1>
+      <i id="dark-mode-toggle">
+        <i class="ri-sun-line" id="dark-mode-icon"></i>
+      </i>
+      <!-- <i class="ri-moon-line"></i> -->
+    </nav>
 
     <main>
+      <div class="input-from-user">
         <div id="search-container">
-            <input type="text" id="search-input" placeholder="Search problems">
-            <button id="search-button">Search</button>
+          <input type="text" id="search-input" placeholder="Search problems" />
+          <button class="enter-button">
+            Search <i class="ri-search-line" style="font-size: 18px"></i>
+          </button>
         </div>
+
         <div id="leetcode-username">
-            <input type="text" id="username" placeholder="Enter LeetCode Username" autocomplete="off" style="width: 50%; padding: 5px; font-size: 16px;">
-            <button id="fetch-user-data">Get User Details</button>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your LeetCode username"
+            autocomplete="off"
+          />
+          <button class="enter-button" id="fetch-user-data">
+            Get Details <i class="ri-id-card-line" style="font-size: 18px"></i>
+          </button>
         </div>
-         <section id="daily-problem" class="hidden">
-            <h2>Daily Problem</h2>
-            <div id="daily-problem-title"></div>
-            <div id="daily-problem-description"></div>
-            <div id="daily-problem-difficulty"></div>
-            <div id="daily-problem-link"></div>
-        </section>
-        
-        <div id="user-details" class="hidden"></div>
-        <div id="user-badges" class="hidden"></div>
-        <div id="user-solved-questions" class="hidden"></div>
-        <div id="user-contest-history" class="hidden"></div>
-        <section id="calendar" class="hidden">
-            <h2>Submission Calendar</h2>
-            <div id="submission-calendar"></div>
-        </section>
+      </div>
 
-        <section id="challenge-list">
-            <h2>Available Coding Challenges</h2>
-            <ul id="challenges"></ul>
-        </section>
+      <section id="daily-problem" class="hidden">
+        <h2>Daily Problem</h2>
+        <div id="daily-problem-title"></div>
+        <div id="daily-problem-description"></div>
+        <div id="daily-problem-difficulty"></div>
+        <div id="daily-problem-link"></div>
+      </section>
 
-        <section id="challenge-detail" class="hidden">
-            <h2>Challenge Details</h2>
-            <div id="problem-title"></div>
-            <div id="problem-description"></div>
-            <div id="problem-constraints"></div>
-        </section>
+      <div id="user-details" class="hidden"></div>
+      <div id="user-badges" class="hidden"></div>
+      <div id="user-solved-questions" class="hidden"></div>
+      <div id="user-contest-history" class="hidden"></div>
+      <section id="calendar" class="hidden">
+        <h2>Submission Calendar</h2>
+        <div id="submission-calendar"></div>
+      </section>
 
-        <div id="feedback-section">
-            <h3>Feedback</h3>
-            <label for="difficulty-rating">Rate Difficulty:</label>
-            <select id="difficulty-rating">
-                <option value="easy">Easy</option>
-                <option value="medium">Medium</option>
-                <option value="hard">Hard</option>
-            </select>
-            <br/>
-            <label for="feedback-text">Feedback:</label>
-            <textarea id="feedback-text" row="0" cols="20"></textarea>
-            
-            <button id="submit-feedback">Submit Feedback</button>
-        </div>
+      <section id="challenge-list">
+        <h2>Available Coding Challenges</h2>
+        <ul id="challenges"></ul>
+      </section>
+
+      <section id="challenge-detail" class="hidden">
+        <h2>Challenge Details</h2>
+        <div id="problem-title"></div>
+        <div id="problem-description"></div>
+        <div id="problem-constraints"></div>
+      </section>
+
+      <div id="feedback-section">
+        <h3>Feedback</h3>
+        <label for="difficulty-rating">Rate Difficulty:</label>
+        <select id="difficulty-rating">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <br />
+        <label for="feedback-text">Feedback:</label>
+        <textarea id="feedback-text" row="5" cols="20"></textarea>
+
+        <button id="submit-feedback">Submit Feedback</button>
+      </div>
     </main>
 
     <script src="search.js"></script>
@@ -77,5 +96,5 @@
     <script src="darkmode.js"></script>
     <script src="calendar.js"></script>
     <script src="dailyproblem.js"></script>
-</body>
+  </body>
 </html>
